@@ -1,0 +1,33 @@
+{
+  "name": "react-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-lines-ellipsis": "^0.13.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "0.9.5",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "watch": "npm-watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "watch": {
+    "test": "{src,test}/*.js"
+  },
+  "homepage": "http://myname.github.io/myapp",
+}
